@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Logs & temporary runtime files
+*.log
+nohup.out
+.lgd-*
+
+# Local database & dynamic student files (keep init_db.sql instead)
+attendance.db
+face_data/encodings.pickle
+student_photos/*
+!student_photos/.gitkeep
+student_qrs/*
+!student_qrs/.gitkeep
+shared_materials/*
+!shared_materials/.gitkeep
+returned_components_history.csv
+
+# Backups
+*.tar.gz
+attendvision_old/
